@@ -1,0 +1,25 @@
+.result {
+  input,
+  select {
+    margin: 1rem;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    border: 1px solid;
+  }
+  label {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+  .form {
+    &-list {
+      list-style: none;
+
+      &__item {
+        &-element {
+            display: inline;
+            margin-left: 2rem;
+        }
+      }
+    }
+  }
+}
